@@ -1,0 +1,557 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+.clear{
+    clear: both;
+}
+.heroSection{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #161418;
+    box-sizing: border-box;
+}
+.heroSection nav{
+    padding-left: 40px;
+}
+.logo{
+    float: left;
+    width: calc(50%-40px);
+}
+.bag{
+    float: right;
+    width: 175px;
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: right;
+}
+.bg{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navMenu{
+    float: right;
+    width: calc(50%-215px);
+}
+.navMenu ul{
+    list-style-type: none;
+}
+.navMenu ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.navMenu ul li:last-child{
+    margin-right: 0px;
+}
+.navMenuItems{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+.navMenuItems:hover{
+    color: #b02b1d;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.heroText{
+    float: left;
+    width: 50%;
+    padding-top: 235px;
+    padding-left: 225px;
+    box-sizing: border-box;
+}
+.heroText h1{
+    font-size: 40px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.heroText p{
+    font-size: 14px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.heroText button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #b02b1d;
+    border: 0px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.heroText button:hover{
+    background-color: #f22914;
+}
+.heroText button:active,
+.heroText button:focus{
+    outline: 0px;
+}
+.dash{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #59585a;
+    margin-right: 30px;
+}
+.dollar{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f4f4f4;
+}
+.heroImg{
+    float: right;
+    width: 50%;
+    padding-top: 80px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.wingsImg{
+    width: 650px;
+    height: 650px;
+}
+.welcomeSection{
+    background-color: #161418;
+    box-sizing: border-box;
+}
+.pizzaImg{
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.pizzaImg img{
+    width: 425px;
+    height: 645px;
+}
+.welcomeText{
+    float: right;
+    
+    width: 50%;
+    height: 824px;
+    background-image: url("../img/welcomeFood.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-top: 260px;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+.welcomeText h1{
+    font-size: 36px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.welcomeText p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.welcomeText button{
+    width: 165px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #161418;
+    border: 2px solid #b02b1d;
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+.welcomeText button:hover{
+    background-color: #b02b1d;
+}
+.welcomeText button:active,
+.welcomeText button:focus{
+    outline: 0px;
+}
+.servicesSection{
+    background-color: #161418;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.serviceText{
+    margin: 30px 390px 60px 390px;
+}
+.servicesSection .serviceText h1{
+    font-size: 36px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.servicesSection .serviceText p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.serviceContainer{
+    width: 1110px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.leftServiceMenu{
+    float: left;
+    width: 33.33%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.chiefImg{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.rightServiceMenu{
+    float: left;
+    width: 33.33%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.leftServiceItem{
+    margin-bottom: 130px;
+}
+.leftServiceItem:last-child{
+    margin-bottom: 0px;
+}
+.rightServiceItem{
+    margin-bottom: 130px;
+}
+.rightServiceItem:last-child{
+    margin-bottom: 0px;
+}
+.leftServiceItem .serviceItemImg{
+    float: left;
+}
+.leftServiceItem .serviceItemText{
+    float: right;
+}
+.rightServiceItem .serviceItemImg{
+    float: right;
+}
+.rightServiceItem .serviceItemText{
+    float: left;
+}
+.leftServiceItem .serviceItemText p{
+    font-size: 21px;
+    color: #f4f4f4;
+    text-align: left;
+    text-transform: uppercase;
+}
+.leftServiceItem .serviceItemText span{
+    font-size: 16px;
+    color: #a7a7a8;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.rightServiceItem .serviceItemText p{
+    font-size: 21px;
+    color: #f4f4f4;
+    text-align: right;
+    text-transform: uppercase;
+}
+.rightServiceItem .serviceItemText span{
+    font-size: 16px;
+    color: #a7a7a8;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+.menuSection{
+    background-color: #161418;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-image: url("../img/menuFood.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.menuText{
+    margin: 0px 390px 50px 390px;
+}
+.menuSection .menuText h1{
+    font-size: 36px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.menuSection .menuText p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.menuSection nav{
+    margin-bottom: 60px;
+}
+.menuSectionList{
+    list-style-type: none;
+}
+.menuSectionList li{
+    display: inline-block;
+    margin-right: 60px;
+}
+.menuSectionList li:last-child{
+    margin-right: 45px;
+}
+.menuSectionList li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+.menuSectionList li a:hover{
+    color: #b02b1d;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.menuContainer{
+    width: 906px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.newsSection{
+    background-color: #161418;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.newsText{
+    margin: 0px 390px 70px 390px;
+}
+.newsSection .newsText h1{
+    font-size: 36px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.newsSection .newsText p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.newsContainer{
+    width: 1110px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.newsContainer .newsContainerItems{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 43px;
+    box-sizing: border-box;
+}
+.newsContainer .newsContainerItems h2{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.newsContainer .newsContainerItems p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.newsContainer .newsContainerItems .newsdash{
+    color: #b2b1b2;
+    letter-spacing: 3px;
+}
+.newsContainer .newsContainerItems .jan{
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.newsContainer .newsContainerItems .read{
+    float: right;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.orderSection{
+    background-color: #161418;
+    background-image: url("../img/order.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.orderText{
+    margin: 0px 390px 70px 390px;
+}
+.orderSection .orderText h1{
+    font-size: 36px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.orderSection .orderText p{
+    font-size: 16px;
+    color: #b2b1b2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.orderContainer{
+    width: 1020px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.time{
+    float: left;
+    width: 350px;
+    padding: 32px;
+    background-color: #28252a;
+    box-sizing: border-box;
+}
+.inTime{
+    width: 290px;
+    border: 3px dashed #3e3b40;
+    box-sizing: border-box;
+}
+.time .inTime h2{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.time .inTime h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.time .inTime h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.time .inTime p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.reservation{
+    float: left;
+    width: calc(100% - 350px);
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.orderContainer .reservation h2{
+    color: #161418;
+    font-size: 36px;
+    font-weight: 400;
+}
+.orderSection .orderContainer .reservation h1{
+    color: #161418;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.orderForm{
+    padding-top: 22px;
+}
+.people, .date, .timee, .name, .phone, .email, .bookBtn{
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    border-bottom: 2px solid #dddddd;
+}
+.bookBtn{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    background-color: #b02b1d;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0px;
+}
+.bookBtn:hover{
+    background-color: #d52412;
+}
+.picsSection{
+    background-color: #161418;
+    padding-left: 28px;
+    box-sizing: border-box;
+}
+.pic1, .pic2, .pic3, .pic4{
+    float: left;
+}
+.infoSection{
+    background-color: #161418;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.infoContainer{
+    width: 1110px;
+    margin: auto;
+}
+.mainInfo{
+    float: left;
+    width: 460px;
+    color: #b2b1b2;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.infologo{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.infoGrids{
+    float: left;
+    width: calc(100% - 460px);
+    box-sizing: border-box;
+}
+.infoGrid{
+    float: left;
+    width: 190px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.infoContact{
+    float: left;
+    width: calc(100% - 380px);
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.infoGrid h2, .infoContact h2{
+    margin-left: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.infoGrid ul, .infoContact ul{
+    list-style-type: none;
+}
+.infoGrid ul li, .infoContact ul li{
+    margin-bottom: 5px;
+}
+.infoGrid ul li a, .infoContact ul li a{
+    text-decoration: none;
+    color: #bfbec0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.4s;
+}
+.infoGrid ul li a:hover, .infoContact ul li a:hover{
+    color: #b02b1d;
+    transition-duration: 0.4s;
+}
